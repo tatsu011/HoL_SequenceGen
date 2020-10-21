@@ -1,0 +1,5 @@
+{
+  "actionType": "TextInput",
+  "Prompt": "Enter a name",
+  "Field": "Name"
+}

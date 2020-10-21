@@ -1,0 +1,37 @@
+{
+  "actionType": "RollTable",
+  "ModifierCheck": "CultureMod",
+  "dicecheck": {
+    "Die": 20
+  },
+  "results": [
+    {
+      "Weight": 1,
+      "Description": "You had a bad fall.  Add an injury.",
+      "TargetValue": "injury",
+      "TargetTable": "Injury",
+      "Value": 1
+    },
+    {
+      "Weight": 6,
+      "Description": "You performed poorly.",
+      "TargetTable": "Unlucky"
+    },
+    {
+      "Weight": 6,
+      "Description": "This was an average performance."
+    },
+    {
+      "Weight": 6,
+      "Description": "This is an above average performance",
+      "TargetTable": "Boon"
+    },
+    {
+      "Weight": 1,
+      "Description": "This is a glorious performance",
+      "TargetValue": "Boost",
+      "TargetTable": "Boon",
+      "Value": 1
+    }
+  ]
+}
