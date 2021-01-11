@@ -1,5 +1,5 @@
 {
   "$type": "SequenceGenerator.Actions.LabelTransfer, SequenceGenerator",
-  "NextAction": "DummyLblTransfer",
+  "NextAction": "101",
   "ActionType": "LblTransfer"
 }
