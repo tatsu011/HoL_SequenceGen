@@ -1,0 +1,50 @@
+{
+  "$type": "SequenceGenerator.Actions.Table, SequenceGenerator",
+  "dicecheck": {
+    "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+    "Die": 20
+  },
+  "results": [
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 12,
+      "Description": "Part human.",
+      "TargetValue": "SubRace",
+      "Value": 1
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "part elf",
+	  "TargetValue": "SubRace",
+      "Value": 2
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "part dwarf"
+	  "TargetValue": "SubRace",
+      "Value": 4
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "part halfling",
+	  "TargetValue": "SubRace",
+      "Value": 8
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "TargetValue": "101_2_adj
+	  "value": 2
+    },
+	{
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "part something else",
+	  "TargetTable": "101b_1"
+    }
+  ],
+  "ActionType": "RollTable",
+}

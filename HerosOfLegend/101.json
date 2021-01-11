@@ -1,0 +1,51 @@
+{
+  "$type": "SequenceGenerator.Actions.Table, SequenceGenerator",
+  "dicecheck": {
+    "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+    "Die": 20
+  },
+  "results": [
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 12,
+      "Description": "You are human. Generic AF",
+      "TargetValue": "Race",
+      "Value": 1
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "You are an Elf.  Very pretty.",
+	  "TargetValue": "Race",
+      "Value": 2
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "You are a Dwarf."
+	  "TargetValue": "Race",
+      "Value": 3
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "You are a halfling. Am smol person.",
+	  "TargetValue": "Race",
+      "Value": 4
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "You are a mix of more than one race.",
+      "TargetTable": "101_1",
+    },
+	{
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "You are... something else",
+	  "TargetTable": "101b"
+    }
+  ],
+  "ActionType": "RollTable",
+  "NextAction": "101c",
+}

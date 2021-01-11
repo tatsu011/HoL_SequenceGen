@@ -1,0 +1,38 @@
+{
+  "$type": "SequenceGenerator.Actions.Table, SequenceGenerator",
+  "dicecheck": {
+    "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+    "Die": 10
+  },
+  "results": [
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 3,
+      "Description": "Part beastman",
+      "TargetValue": "Race",
+      "Value": 16
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "Part Reptileman",
+      "TargetValue": "Race",
+      "Value": 32
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "Part Orc",
+	  "TargetValue": "Race",
+	  "Value": 7
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 3,
+      "Description": "Quarter Orc",
+      "TargetValue": "Race"
+	  "Value": 8
+    }
+  ],
+  "ActionType": "RollTable"
+}

@@ -1,5 +1,5 @@
 {
-  "actionType": "TextInput",
-  "Prompt": "Enter a name",
-  "Field": "Name"
+  "$type": "SequenceGenerator.Actions.LabelTransfer, SequenceGenerator",
+  "NextAction": "DummyLblTransfer",
+  "ActionType": "LblTransfer"
 }

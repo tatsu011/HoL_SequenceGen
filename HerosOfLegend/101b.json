@@ -1,0 +1,38 @@
+{
+  "$type": "SequenceGenerator.Actions.Table, SequenceGenerator",
+  "dicecheck": {
+    "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+    "Die": 10
+  },
+  "results": [
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 3,
+      "Description": "Part beast, part man, 500 or so races lumped into one.",
+      "TargetValue": "Race",
+      "Value": 5
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "Reptilemen. They do that tongue thing. fttth",
+      "TargetValue": "Race",
+      "Value": 6
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "Orc. My gosh.",
+	  "TargetValue": "Race",
+	  "Value": 7
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 3,
+      "Description": "Half-Orc",
+      "TargetValue": "Race"
+	  "Value": 8
+    }
+  ],
+  "ActionType": "RollTable"
+}
