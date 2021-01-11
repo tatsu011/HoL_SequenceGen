@@ -22,8 +22,8 @@
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
-      "Description": "part dwarf"
-	  "TargetValue": "SubRace",
+      "Description": "part dwarf",
+	    "TargetValue": "SubRace",
       "Value": 4
     },
     {
@@ -36,15 +36,15 @@
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "TargetValue": "101_2_adj
-	  "value": 2
+      "TargetValue": "101_2_adj",
+	    "value": 2
     },
 	{
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
       "Description": "part something else",
-	  "TargetTable": "101b_1"
+	    "TargetTable": "101b_1"
     }
   ],
-  "ActionType": "RollTable",
+  "ActionType": "RollTable"
 }

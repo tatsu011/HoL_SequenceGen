@@ -30,8 +30,8 @@
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 3,
       "Description": "Half-Orc",
-      "TargetValue": "Race"
-	  "Value": 8
+      "TargetValue": "Race",
+	    "Value": 8
     }
   ],
   "ActionType": "RollTable"

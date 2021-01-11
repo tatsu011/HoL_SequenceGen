@@ -3,8 +3,8 @@
   "TargetTable": "101_2",
   "roll": {
     "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
-    "Die": 0
-	"bonus": 2
+    "Die": 0,
+	  "bonus": 2
   },
   "NextTable": "101c",
   "Explanation": "Your genetics come in at least {0} parts",
