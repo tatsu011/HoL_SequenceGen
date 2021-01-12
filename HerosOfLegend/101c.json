@@ -1,0 +1,11 @@
+{
+    "$type": "SequenceGenerator.Actions.RepeatingTable, SequenceGenerator",
+    "TargetTable": "101c_r",
+    "roll": {
+      "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+      "Die": 0,
+      "bonus": 1
+    },
+    "NextTable": "102",
+    "ActionType": "RepeatingTable"
+  }

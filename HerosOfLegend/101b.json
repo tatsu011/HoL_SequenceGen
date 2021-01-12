@@ -34,5 +34,6 @@
 	    "Value": 8
     }
   ],
-  "ActionType": "RollTable"
+  "ActionType": "RollTable",
+  "NextAction": "101c"
 }

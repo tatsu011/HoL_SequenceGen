@@ -1,0 +1,58 @@
+{
+  "$type": "SequenceGenerator.Actions.Table, SequenceGenerator",
+  "dicecheck": {
+    "$type": "SequenceGenerator.Actions.Roll, SequenceGenerator",
+    "Die": 20
+  },
+  "results": [
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 8,
+      "Description": "Ties are to the current nation of residence, regardless of ancestry.",
+      "Value": 1
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 2,
+      "Description": "Character prefers the land of his ancestors over his current lands.",
+      "Value": 2
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 4,
+      "Description": "There character is a racial minority within the nation."
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "The character is part of a repressed race within the nation."
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "The race of this character was uprooted by invaders of another race."
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "This character is the child of foreigners to this country and does not fit in with the dominant society."
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "This character has moved here on his own, but will eventually seek return to his homeland."
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "Description": "This is a glorious performance"
+    },
+    {
+      "$type": "SequenceGenerator.Result, SequenceGenerator",
+      "Weight": 1,
+      "TargetValue": "101c_adj",
+      "Value": 2
+    }
+  ],
+  "ActionType": "RollTable"
+}

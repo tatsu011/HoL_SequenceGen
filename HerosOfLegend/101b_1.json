@@ -23,15 +23,15 @@
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "Part Orc",
-	  "TargetValue": "Race",
-	  "Value": 7
+	    "TargetValue": "Race",
+	    "Value": 64
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 3,
       "Description": "Quarter Orc",
       "TargetValue": "Race",
-	    "Value": 8
+	    "Value": 128
     }
   ],
   "ActionType": "RollTable"
