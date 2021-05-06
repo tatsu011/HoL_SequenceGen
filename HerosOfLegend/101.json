@@ -9,29 +9,49 @@
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 12,
       "Description": "You are human. Generic AF",
-      "TargetValue": "Race",
-      "Value": 1
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Race",
+          "Value": 1
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "You are an Elf.  Very pretty.",
-	    "TargetValue": "Race",
-      "Value": 2
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Race",
+          "Value": 2
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "You are a Dwarf.",
-	    "TargetValue": "Race",
-      "Value": 3
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Race",
+          "Value": 3
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "You are a halfling. Am smol person.",
-	    "TargetValue": "Race",
-      "Value": 4
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Race",
+          "Value": 4
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
