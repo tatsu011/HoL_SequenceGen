@@ -9,35 +9,60 @@
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 12,
       "Description": "Part human.",
-      "TargetValue": "SubRace",
-      "Value": 1
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "SubRace",
+          "Value": 1
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "part elf",
-	  "TargetValue": "SubRace",
-      "Value": 2
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "SubRace",
+          "Value": 2
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "part dwarf",
-	    "TargetValue": "SubRace",
-      "Value": 4
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "SubRace",
+          "Value": 4
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "part halfling",
-	  "TargetValue": "SubRace",
-      "Value": 8
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "SubRace",
+          "Value": 8
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "TargetValue": "101_2_adj",
-	    "value": 2
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "101_2_adj",
+          "Value": 2
+        }
+      ]
     },
 	{
       "$type": "SequenceGenerator.Result, SequenceGenerator",

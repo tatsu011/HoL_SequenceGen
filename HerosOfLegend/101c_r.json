@@ -9,13 +9,25 @@
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 8,
       "Description": "Ties are to the current nation of residence, regardless of ancestry.",
-      "Value": 1
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 1
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 2,
       "Description": "Character prefers the land of his ancestors over his current lands.",
-      "Value": 2
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 2
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
@@ -50,8 +62,13 @@
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "TargetValue": "101c_adj",
-      "Value": 2
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "101c_adj",
+          "Value": 2
+        }
+      ]
     }
   ],
   "ActionType": "RollTable"
