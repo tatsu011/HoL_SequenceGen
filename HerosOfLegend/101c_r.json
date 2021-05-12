@@ -32,32 +32,74 @@
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 4,
-      "Description": "There character is a racial minority within the nation."
+      "Description": "There character is a racial minority within the nation.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 4
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "Description": "The character is part of a repressed race within the nation."
+      "Description": "The character is part of a repressed race within the nation.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 8
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "Description": "The race of this character was uprooted by invaders of another race."
+      "Description": "The race of this character was uprooted by invaders of another race.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 16
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "Description": "This character is the child of foreigners to this country and does not fit in with the dominant society."
+      "Description": "This character is the child of foreigners to this country and does not fit in with the dominant society.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 32
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "Description": "This character has moved here on his own, but will eventually seek return to his homeland."
+      "Description": "This character has moved here on his own, but may seek return to his homeland.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 64
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
       "Weight": 1,
-      "Description": "This is a glorious performance"
+      "Description": "The character was born in a foreign land, and moved here during adulthood, very distinctly foreigner.",
+      "Items": [
+        {
+          "$type": "SequenceGenerator.ValueOperation, SequenceGenerator",
+          "Target": "Ties",
+          "Value": 128
+        }
+      ]
     },
     {
       "$type": "SequenceGenerator.Result, SequenceGenerator",
